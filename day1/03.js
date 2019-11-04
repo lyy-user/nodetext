@@ -1,0 +1,10 @@
+//获取文件路径
+var path = require("path")
+console.log(path)
+//console.log(path.resolve("C:\Users\lyy\HBuilderProjects\Node.js\js>","./aa"))
+//console.log(path.normalize("C:\Users\lyy\HBuilderProjects\Node.js\js"))
+//console.log(path.isAbsolute("C:\Users\lyy\HBuilderProjects\Node.js\js","./aa"))
+//console.log(path.join("/aa","/sss","/dd","//bb"))
+console.log(path.dirname("C:\Users\lyy\HBuilderProjects\Node.js\js"))
+//console.log(path.basename("C:\Users\lyy\HBuilderProjects\Node.js\js"))
+//console.log(path.extname("C:\Users\lyy\HBuilderProjects\Node.js\js/bar.html"))
